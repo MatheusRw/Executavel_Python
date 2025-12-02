@@ -1,4 +1,14 @@
-# Ambientes virtuais Python
+# Ignorar ambiente virtual
 venv/
 .env/
 .venv/
+
+
+# Ignorar arquivos Python compilados
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Permitir tudo dentro de scripts/
+!Scripts/
