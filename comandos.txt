@@ -1,1 +1,2 @@
 pyinstaller --onefile teste.py
+pyinstaller --onedir --noconsole --clean --strip seu_script.py
