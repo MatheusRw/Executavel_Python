@@ -1,5 +1,5 @@
 import random
-
+import time
 def traduzir_escolha(escolha):
     """Converte número ou palavra para a opção correspondente."""
     mapa = {
@@ -59,7 +59,7 @@ def jogo():
         print("🤖 O sistema é o campeão!")
     else:
         print("⚖️ O jogo terminou empatado!")
-
+    time.sleep(3)
 # Executa o jogo
 jogo()
 
